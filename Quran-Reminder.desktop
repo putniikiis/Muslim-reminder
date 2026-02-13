@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Quran Reminder
+Comment=Аят по Ctrl+O и раз в час
+Exec=PATH_TO_QURAN/run.sh
+Icon=book-open
+Terminal=false
+Categories=Utility;
