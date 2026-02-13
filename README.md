@@ -34,7 +34,7 @@ chmod +x install.sh run.sh
 
 ```bash
 mkdir -p ~/.config/autostart
-sed "s|/home/islam/quran|$(pwd)|g" Quran-Reminder.desktop > ~/.config/autostart/quran-reminder.desktop
+sed "s|PATH_TO_QURAN|$(pwd)|g" Quran-Reminder.desktop > ~/.config/autostart/quran-reminder.desktop
 ```
 
 **macOS:** добавьте «Программы входа» (Login Items): укажите приложение Terminal и команду `open -a Terminal -n --args -e "bash -c 'cd /путь/к/quran && ./run.sh'"` или создайте приложение-обёртку.
