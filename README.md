@@ -9,7 +9,7 @@
 ## Установка (любой дистрибутив)
 
 ```bash
-cd quran
+cd Muslim-reminder
 chmod +x install.sh run.sh
 ./install.sh
 ```
